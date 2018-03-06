@@ -1,7 +1,7 @@
 {
-    "name": "cdtweb/pharven",
+    "name": "danelsan/pharven",
     "description": "Pharven bundles your vendor directory into a PHP Archive (PHAR)",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         "composer",
         "phar"
     ],
-    "homepage": "https://github.com/cdtweb/pharven",
+    "homepage": "https://github.com/danelsan/pharven",
     "require": {
         "php": ">=7.1",
         "twig/twig": "^2.2"
