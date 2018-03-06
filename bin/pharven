@@ -7,7 +7,9 @@ $vendorDirs = [
 	__DIR__ . '/vendor',
 	__DIR__ . '/../vendor',
 	__DIR__ . '/../../vendor',
-	__DIR__ . '/../../../vendor'
+	__DIR__ . '/../../../vendor',
+	__DIR__ . '/../../../../vendor',
+	__DIR__ . '/../../../../../vendor',
 ];
 foreach($vendorDirs as $dir){
 	if(is_dir($dir)){
